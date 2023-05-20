@@ -1,0 +1,16 @@
+body {
+  background: red;
+}
+h1 {
+  font-family: "Roboto";
+  font-size: 72px;
+  color: white;
+  line-height: 84px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+h2 {
+  font-family: monospace;
+  font-size: 18px;
+  line-height: 30px;
+}
