@@ -70,3 +70,11 @@ h1 {
   display: block;
   margin: 0 auto;
 }
+@media (max-width: 600px) {
+  .header-image {
+    height: 100%;
+  }
+  .header-text {
+    top: 100px;
+  }
+}
