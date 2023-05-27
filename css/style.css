@@ -72,7 +72,8 @@ h1 {
 }
 @media (max-width: 600px) {
   .header-image {
-    height: 100%;
+    width: 110%;
+    height: 400px;
   }
   .header-text {
     top: 100px;
@@ -89,4 +90,19 @@ h1 {
   .btn-branding {
     margin-top: 40px;
   }
+  .container {
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+  }
+  .col-sm-4 {
+    width: 300px;
+    margin-bottom: 30px;
+    display: block;
+    margin: 0 auto;
+  }
+
 }
