@@ -84,6 +84,7 @@ h1 {
 .contacts {
   text-align: center;
   display: block;
+  font-family: var(--default-font-family);
 }
 .gallery-page h1 {
   margin-bottom: 100px;
