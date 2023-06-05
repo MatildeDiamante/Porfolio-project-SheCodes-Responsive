@@ -16,6 +16,7 @@ h1 {
   line-height: 84px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+  text-align: center;
 }
 .header {
   width: 100%;
@@ -80,8 +81,11 @@ h1 {
   font-size: 15px;
   line-height: 24px;
 }
-.gallery-page h1 {
+.contacts {
   text-align: center;
+  display: block;
+}
+.gallery-page h1 {
   margin-bottom: 100px;
 }
 .btn-branding {
@@ -112,6 +116,9 @@ h1 {
   font-size: 15px;
   line-height: 24px;
   margin-top: 10px;
+}
+.section {
+  margin-top: 100px;
 }
 @media (max-width: 576px) {
   .header-image {
