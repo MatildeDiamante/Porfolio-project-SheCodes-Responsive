@@ -12,6 +12,10 @@ h1,
 h2,
 h3 {
   font-family: var(--heading-font-family);
+  font-weight: 700;
+}
+nav li.active a {
+  color: var(--branding-color);
 }
 h1 {
   font-size: 72px;
@@ -35,19 +39,18 @@ p {
 .navbar {
   background: var(--primary-color);
   font-family: var(--heading-font-family);
+  font-weight: 700;
   padding: 9px 70px;
 }
 .nav-link {
   font-size: 16px;
+  font-weight: 500;
   line-height: 19px;
   color:black
 }
 .nav-link:hover {
   color: var(--branding-color);
   transition: var(--transition);
-}
-nav li.active a {
-  color: var(--branding-color);
 }
 .header {
   width: 100%;
@@ -67,7 +70,7 @@ nav li.active a {
   position: absolute;
   z-index: 10;
   left: 0;
-  top: 200px;
+  top: 170px;
   width: 100%;
 }
 .header-text h2 {
@@ -85,8 +88,9 @@ nav li.active a {
   background: var(--primary-color);
   border-radius: 50px;
   text-align: center;
-  font-size: 10px;
   font-family: var(--heading-font-family);
+  font-size: 10px;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin-top: 50px;
