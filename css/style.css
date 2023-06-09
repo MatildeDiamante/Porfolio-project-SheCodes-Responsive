@@ -35,6 +35,14 @@ p {
   font-size: 15px;
   line-height: 24px;
 }
+footer {
+  background: var(--branding-color);
+  padding: 20px;
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: black;
+}
 
 .navbar {
   background: var(--primary-color);
@@ -46,7 +54,7 @@ p {
   font-size: 16px;
   font-weight: 500;
   line-height: 19px;
-  color:black
+  color: black;
 }
 .nav-link:hover {
   color: var(--branding-color);
@@ -106,6 +114,10 @@ p {
 .img-fluid {
   display: block;
   margin: 0 auto;
+}
+.social-links a:hover {
+  color: var(--branding-color);
+  transition: var(--transition);
 }
 
 .img-profile {
