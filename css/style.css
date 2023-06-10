@@ -1,5 +1,6 @@
 :root {
   --primary-color: rgb(234, 227, 227);
+  --secondary-color: rgb(219, 212, 212);
   --branding-color: rgb(230, 175, 246);
   --heading-font-family: "Roboto";
   --default-font-family: monospace;
@@ -36,7 +37,7 @@ p {
   line-height: 24px;
 }
 footer {
-  background: var(--branding-color);
+  background: var(--secondary-color);
   padding: 21px;
 }
 footer .social-links a {
