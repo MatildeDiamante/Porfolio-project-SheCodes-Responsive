@@ -40,13 +40,6 @@ footer {
   background: var(--secondary-color);
   padding: 21px;
 }
-footer .social-links a {
-  margin: 0 20px;
-  color: black;
-  font-size: 16px;
-  line-height: 18px;
-  transition: var(--transition);
-}
 
 .navbar {
   background: var(--primary-color);
@@ -97,7 +90,8 @@ footer .social-links a {
   margin-top: -7px;
 }
 .btn-branding {
-  background: var(--primary-color);
+  background: black;
+  color: var(--primary-color);
   border-radius: 50px;
   text-align: center;
   font-family: var(--heading-font-family);
@@ -119,6 +113,13 @@ footer .social-links a {
   display: block;
   margin: 0 auto;
 }
+ .social-links a {
+  margin: 0 20px;
+  color: black;
+  font-size: 16px;
+  line-height: 18px;
+  transition: var(--transition);
+}
 .social-links a:hover {
   color: var(--branding-color);
 }
@@ -135,13 +136,11 @@ footer .social-links a {
   line-height: 75px;
   margin-left: -15px;
 }
-.text-section .btn-branding {
-  background: black;
-  color: var(--primary-color);
+.text-section .socials {
+  margin-left: -14px;
 }
 .text-section .btn-branding:hover {
   background: var(--branding-color);
-  transition: var(--transition);
 }
 .container h3 {
   margin: 70px 40px 65px 50px;
