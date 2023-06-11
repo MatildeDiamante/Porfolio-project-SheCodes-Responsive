@@ -150,6 +150,8 @@ footer {
   text-align: center;
   display: block;
   font-family: var(--default-font-family);
+  color: var(--branding-color);
+  text-decoration: none;
 }
 .contact-info {
   margin-top: -15px;
