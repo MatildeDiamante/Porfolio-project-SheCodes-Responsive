@@ -115,6 +115,7 @@ footer {
 .img-fluid {
   display: block;
   margin: 0 auto;
+  max-width: 300px;
 }
  .social-links a {
   margin: 0 20px;
@@ -129,6 +130,7 @@ footer {
 
 .img-profile {
   margin-left: 50px;
+  max-width: 400px;
 }
 .text-section {
   margin-top: 51px;
