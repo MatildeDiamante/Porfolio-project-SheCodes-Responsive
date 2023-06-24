@@ -167,6 +167,9 @@ footer {
   p {
     line-height: 1.5;
   }
+  .navbar {
+    padding: 9px 20px;
+  }
   .header-image {
     height: 470px;
   }
@@ -183,6 +186,7 @@ footer {
   .container {
     margin-top: 70px;
     margin-bottom: 70px;
+    padding: 0;
   }
   .img-fluid {
     max-width: 300px;
